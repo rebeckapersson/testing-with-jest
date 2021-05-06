@@ -14,5 +14,5 @@ exports.pop = function (){
 
 //returnerar det översta elementet i stacken
 exports.peek = function (){
-  return stack[0]; //det här är medvertet felaktigt
-}; 
+  return _.last(stack); 
+};
