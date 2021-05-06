@@ -25,5 +25,5 @@ test('push, check if element is added on top of the stack', () => {
     stack.push("test");
     let result = stack.pop()
     expect(result).toBeDefined();
-    expect(result).toBe(1);
-}); 
+    expect(result).toBe("test");
+});
