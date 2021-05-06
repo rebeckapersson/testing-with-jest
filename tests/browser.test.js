@@ -36,7 +36,7 @@ describe('Clicking "Pusha till stacken"', () => {
 //eget browser test
 
 test('The stack should retun top_element of the stack', async () => {
-  let peek = await driver.findElement(By.id('peek')); //hämtar stacken?
+  let peek = await driver.findElement(By.id('peek')); 
   await peek.click();
   let stack = await driver.findElement(By.id('top_of_stack')).getText();
   expect(stack).toEqual("Bananer");
